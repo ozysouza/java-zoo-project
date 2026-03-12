@@ -2,7 +2,7 @@ package main.java.com.desouza.zoo.model;
 
 import main.java.com.desouza.zoo.behavior.Eat;
 
-abstract public class Animal implements Eat {
+public abstract class Animal implements Eat {
 
     private String nameOfAnimal;
     private int weight;
