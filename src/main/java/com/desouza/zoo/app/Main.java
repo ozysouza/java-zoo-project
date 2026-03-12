@@ -1,4 +1,6 @@
-package main.java.com.desouza.zoo;
+package main.java.com.desouza.zoo.app;
+
+import main.java.com.desouza.zoo.model.Animal;
 
 import java.util.Scanner;
 

@@ -1,4 +1,6 @@
-package main.java.com.desouza.zoo;
+package main.java.com.desouza.zoo.model;
+
+import main.java.com.desouza.zoo.behavior.Eat;
 
 abstract public class Animal implements Eat {
 
