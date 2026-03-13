@@ -1,6 +1,8 @@
 package main.java.com.desouza.zoo.model;
 
-public class Tiger extends Animal {
+import main.java.com.desouza.zoo.behavior.Walk;
+
+public class Tiger extends Animal implements Walk {
 
     private int numberOfStripes;
     private double speed;
@@ -8,7 +10,6 @@ public class Tiger extends Animal {
 
     public Tiger() {
         super("Tiger");
-
     }
 
     public int getNumberOfStripes() {
@@ -37,6 +38,11 @@ public class Tiger extends Animal {
 
     @Override
     public void eatingCompleted() {
+        System.out.println("Tiger: I have eaten fish.");
+    }
 
+    @Override
+    public void walking() {
+        System.out.println("Tiger: I am walking at the speed " + speed + " mph.");
     }
 }
