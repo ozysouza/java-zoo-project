@@ -38,7 +38,7 @@ public class Tiger extends Animal implements Walk {
 
     @Override
     public void eatingCompleted() {
-        System.out.println("Tiger: I have eaten fish.");
+        System.out.println("Tiger: I have eaten meat.");
     }
 
     @Override
