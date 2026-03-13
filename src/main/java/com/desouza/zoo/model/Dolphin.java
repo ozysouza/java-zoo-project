@@ -27,6 +27,6 @@ public class Dolphin extends Animal {
 
     @Override
     public void eatingCompleted() {
-
+        System.out.println("Tiger: I have eaten meat.");
     }
 }
